@@ -16,8 +16,7 @@ app.all("*",(req,res)=>{
 })
 
 
-// allow cors
-app.use(cors())
+
 
 
 
