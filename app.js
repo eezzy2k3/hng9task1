@@ -4,6 +4,9 @@ const cors = require("cors")
 const express = require("express")
 const app = express()
 
+// allow cors
+app.use(cors())
+
 
 
 app.use("/api/v1/aboutme",aboutRouter)
