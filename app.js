@@ -8,6 +8,10 @@ const app = express()
 app.use(cors())
 
 
+// accept body data in json format
+app.use(express.json())
+
+
 
 app.use("/api/v1/aboutme",aboutRouter)
 
