@@ -8,6 +8,6 @@ const router = express.Router()
 
 router.route("/")
 .get(about)
-.post(operations)
+router.post("/operation",operations)
 
 module.exports = router
